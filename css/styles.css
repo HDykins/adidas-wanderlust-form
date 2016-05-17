@@ -1,0 +1,63 @@
+body {
+	background-image: url(../images/wanderlust-prayer-time.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: rgb(230,230,230);
+}
+
+.transparent {
+	background-color: rgba(100,100,100,0.5);
+	height: 100vh;
+}
+
+.form {
+	background: rgba(30,30,30,0.8);
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 10px;
+	height: 600px;
+}
+
+.info {
+	background: rgba(30,30,30,0.8);
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 30px;
+	height: 600px;
+}
+
+input[type=text] {
+	height: 40px;
+	width: 60%;
+	border-radius: 5px;
+	font-size: 22px;
+	display: block;
+	margin: 20px 20%;
+}
+
+input[type=checkbox] {
+	text-align: left;
+	font-size: 50px;
+	display: inline-block;
+}
+
+.btn {
+	z-index: 1;
+	background-color: white;
+}
+
+@media (max-width: 992px) {
+	.col-xs-5, .col-xs-6 {
+		width: 100%;
+		font-size: 18px;
+		height: auto;
+	}
+	.terms-conditions {
+		width: 40%;
+	}
+	.col-xs-offset-1 {
+		margin: 0;
+	}
+}
